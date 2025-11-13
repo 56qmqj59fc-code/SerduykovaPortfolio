@@ -1,0 +1,928 @@
+@import url(https://fonts.googleapis.com/css?family=Pangolin:regular);
+@import url(https://fonts.googleapis.com/css?family=Alumni+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body.dark-theme {
+    background-color: #14100d;
+}
+
+body {
+    margin: 0;
+    background-color: #790708; 
+}
+
+body.dark-theme header {
+    background-color: #14100d;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    background-color: #790708;
+    width: 100%;
+    z-index: 1000;
+}
+
+.fon {
+    width: 60px;
+    height: 60px;
+    background-color: #ffe9d4;
+    border-radius: 50px;
+    margin-left: 110px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 250px;
+}
+
+body.dark-theme .theme {
+    background-color: #14100d;
+}
+
+.theme{
+    border: none;
+    background-color: #790708;
+}
+
+nav a, .theme {
+    text-decoration: none;
+    color: #939081;
+    font-family: Pangolin;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.main {
+    background-color: #f2c69e;
+}
+
+.hero {
+    display: flex;
+    align-items:flex-start;
+    position: relative;
+    padding: 150px 0 0 100px;
+}
+
+p1, p2, p3 {
+    font-size: 85px;
+    font-family: Pangolin;
+    color: #f2c69e;
+    margin-bottom: 10px;
+}
+
+p2 {
+    margin-left: 150px;
+}
+
+p3 {
+    margin-left: 250px;
+}
+
+.info-box {
+    background-color: #f2c69e; 
+    color: #14100d;         
+    padding: 30px;          
+    border-radius: 10px;    
+    width: 350px;           
+    text-align: justify;     
+    margin: 40px 0 0 320px;
+    font-family: Alumni Sans;
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-family: Alumni Sans;
+    font-size: 30px;
+}
+
+.button {
+    display: block;
+    background-color: #14100d; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #939081;
+    font-family: Alumni Sans;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero-image {
+    width: 60%; 
+    margin-left: 100px;
+}
+
+.hero-image img {
+    width: 100%;
+    z-index: 1;
+}
+
+.name-label {
+    position: absolute;
+    top: 125px; 
+    right: 30px; 
+    width: 220px;
+    z-index: 1;
+}
+
+p4 {
+    position: absolute;
+    top: 45px; 
+    right: 30px;
+    font-family: Alumni Sans;
+    font-size: 40px;
+    color: #939081;
+    z-index: 1;
+}
+
+p5 {
+    position: absolute;
+    top: 80px; 
+    right: 55px;
+    font-family: Alumni Sans;
+    font-size: 40px;
+    color: #939081;
+    z-index: 1;
+}
+
+.box, .box3 {
+    position: absolute;
+    z-index: 1;
+}
+
+.stripes {
+    position: absolute;
+    width: 70px;
+    transform: rotateZ(40deg);
+    bottom: 500px;
+    left: 1300px;
+    z-index: 1;
+}
+
+.stripes2 {
+    position: absolute;
+    width: 70px;
+    transform: rotateZ(190deg);
+    bottom: 480px;
+    z-index: 1;
+}
+
+.arrow {
+    position: absolute;
+    transform: scaleY(-1) rotateZ(70deg);
+    bottom: 630px;
+    width: 100px;
+    left: 1170px;
+    z-index: 1;
+}
+
+.decor img{
+    position: absolute;
+    width: 200px;
+    bottom: 100px;
+    transform: rotateZ(-20deg);
+    left: 150px;
+}
+
+body.dark-theme .about-me {
+    background-color: #2f2f2f;
+}
+
+.about-me {
+    background-color: #f2c69e; 
+    padding: 0 100px 0 100px;
+}
+
+body.dark-theme p6 {
+    color: #fff6ee;
+}
+
+p6 {
+    position: absolute;
+    margin: 40px 0 40px 50px;
+    font-size: 85px;
+    color: #790708;
+    font-family: Pangolin;
+}
+
+.about-me img{
+    margin-left: 390px;
+}
+
+.about-content {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.about-text {
+    width: 50%;
+    background-color: #ffe9d4;
+    color: #14100d;         
+    padding: 40px;          
+    border-radius: 15px;
+    text-align:justify;
+    font-family: Alumni Sans;
+    font-size: 30px;
+
+}
+
+.about-qualities {
+    width: 370px;
+    background-color: #ffe9d4;
+    color: #14100d;
+    padding: 30px 40px 20px 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-family: Alumni Sans;
+    font-size: 30px;
+    right: 50px;
+    margin-bottom: 50px;
+}
+
+p8 {
+    margin-left: 45px;
+    background-color: #14100d; 
+    color: #ffffff;          
+    padding: 10px 50px;         
+    border-radius: 10px;       
+    text-align: center;                
+    font-size: 35px; 
+}
+
+.qualities ul {
+    list-style: none; 
+    padding: 0;
+
+}
+
+.qualities li {
+    margin-bottom: 10px;                 
+}
+
+body.dark-theme .advantages {
+    background-color: #2f2f2f;
+}
+
+.advantages {
+    background-color: #f2c69e; 
+    padding: 0 130px 0 130px;
+}
+
+body.dark-theme p9 {
+    color: #fff6ee;
+}
+
+p9 {
+    margin: 10px 0 100px 360px;
+    font-size: 75px;
+    color: #790708;
+    font-family: Pangolin;
+}
+
+.advantage-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    width: 335px;
+    height: 380px;
+    background-color: #ffe9d4;
+    border-radius: 15px;
+    margin: 40px 0 40px 0;
+    padding: 20px;
+}
+
+.up {
+    background-color: #fff6ee;
+    width: 335px;
+    height: 265px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card img {
+    margin-top: 40px;
+}
+
+.card p {
+    padding: 15px 0 0 0;
+    font-size: 45px;
+}
+
+body.dark-theme .technologies {
+    background-color: #2f2f2f;
+}
+
+.technologies {
+    background-color: #f2c69e;
+    padding: 0 150px 0 150px;
+}
+
+p10 {
+    position: absolute;
+    text-align: center;
+    background-color: #14100d; 
+    color: #ffffff;          
+    padding: 10px 50px;         
+    border-radius: 10px;     
+    font-size: 35px; 
+    font-family: Alumni Sans; 
+    margin-left: 430px;  
+}
+
+.technologies-rectangle {
+    width: 100%;
+    background-color: #ffe9d4;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.technologies-rectangle2 {
+    width: 100%;
+    background-color: #fff6ee;
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #14100d;
+    font-family: Alumni Sans;
+    font-size: 30px;
+    right: 50px;
+    text-align: justify; 
+}
+
+.technology-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.technology-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+p11 {
+    padding: 0 0 0 20px;
+}
+
+body.dark-theme p12 {
+    color: #fff6ee;
+}
+
+p12{
+    margin: 0 0 100px 300px;
+    font-size: 75px;
+    color: #790708;
+    font-family: Pangolin;
+}
+
+body.dark-theme .programs {
+    background-color: #2f2f2f;
+}
+
+.programs {
+    background-color: #f2c69e;
+    padding: 0 100px 0 100px;
+}
+
+.program-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+}
+
+.card2 {
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: #ffe9d4;
+    border-radius: 15px;
+    margin: 40px 0 70px 0;
+    padding: 20px;
+}
+
+.up2 {
+    background-color: #fff6ee;
+    width: 400px;
+    height: 265px;
+    border-radius: 15px 15px 0 0;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card2 img {
+    display: block;      
+    margin: 0 auto 20px; 
+}
+
+.card2 p {
+    padding: 15px 0 0 0;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.decor2 {
+    position: absolute;
+    left: 985px;
+    width: 70px;
+}
+
+body.dark-theme .blog {
+    background-color: #14100d;
+}
+
+.blog {
+    background-color: #790708; 
+    padding: 0 150px 0 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+p13, p17 {
+    position: absolute;
+    margin: 0 0 1650px 0;
+    font-size: 85px;
+    color: #f2c69e;
+    font-family: Pangolin;
+}
+
+.decor3 {
+    position: absolute;
+    margin: 0 0 1650px 300px;
+}
+
+.blog-cards {
+    display: flex;         
+    flex-wrap: wrap;          
+    justify-content: space-around;
+    width: 95%; 
+    margin-top: 150px;
+}
+
+.card3 {
+    text-align: center;
+    width: 500px;
+    height: 770px;
+    background-color: #939081;
+    border-radius: 15px;
+    margin: 30px 0 40px 0;
+    padding: 50px;
+    box-sizing: border-box; 
+}
+
+.content {
+    height: 90%;             
+    background-color: #ffe9d4; 
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 90px;
+    background-color: #fff6ee;
+    color: #14100d;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: Alumni Sans;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.content img {
+    width: 400px;
+    padding: 0 0 10px 0;
+}
+
+p14 {
+    color: #14100d;
+    font-family: Pangolin;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.text {
+    text-align: justify; 
+    font-family: Alumni Sans;
+    font-size: 25px;
+    padding: 0 20px 0 20px;
+}
+
+.date1, .date2, .date3, .date4{
+    font-family: Alumni Sans;
+    font-size: 15px;
+    padding: 0 20px 20px 20px;
+    text-align: end;
+}
+
+.date1 {
+    margin-top: 40px;
+}
+
+.date2 {
+    margin-top: 60px;
+}
+
+.date3 {
+    margin-top: 10px;
+}
+
+.date4 {
+    margin-top: 30px;
+}
+
+body.dark-theme .portfolio {
+    background-color: #14100d;
+}
+
+.portfolio {
+    background-color: #790708; 
+    padding: 150px 150px 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+p17 {
+    left: 530px;
+}
+
+.decor4 {
+    position: absolute;
+    margin: 0 0 1650px 850px;
+    
+}
+
+p18, p19, p20, p21, p22 {
+    color: #14100d;
+    font-family: Alumni Sans;
+    font-size: 40px;
+    padding: 20px 50px;         
+    border-radius: 15px;  
+    background-color: #fff6ee;
+    position: absolute;
+    margin-left: 320px;
+}
+
+.card4, .card5 {
+    background-color: #ffe9d4; 
+    border-radius: 15px;
+    padding: 60px;
+    width: 1100px;
+    margin-top: 150px;
+    height: 800px;
+}
+
+.images {
+    margin-top: 150px;
+}
+
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15,.img16,.img17,.img18,.img19,.img20,.img21,.img22,.img23,.img24,.img25,.img26,.img27,.img28 {
+  position: absolute;
+}
+
+.img1 {
+    width: 550px;
+    height: auto;
+}
+
+.img2 {
+    left: 725px;
+    top: 5630px;
+}
+
+.img3 {
+    left: 420px;
+    top: 5800px; 
+}
+
+.img4 {
+    left: 220px;
+    top: 6000px; 
+}
+
+.img5 {
+    left: 750px;
+    top: 5920px; 
+}
+
+.img6 {
+    left: 930px;
+    top: 6020px; 
+}
+
+.but {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button1 {
+    background-color: #939081;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    margin-top: 600px;
+    font-family: Alumni Sans;
+    font-size: 30px;
+}
+
+.button1:hover {
+    background-color: #C1BCA4;
+}
+
+.img8 {
+    left: 425px;
+    top: 6680px;
+}
+
+.img9 {
+    left: 640px;
+}
+
+.img10 {
+    top: 6680px;
+    left: 860px;
+
+}
+
+.img11 {
+    left: 1060px;
+}
+
+p19 {
+    margin-left: 360px;
+}
+
+p20 {
+    margin-left: 380px;
+}
+
+.img13 {
+    left: 880px;
+}
+
+.img14{
+    top: 8030px;
+}
+
+.img15 {
+    top: 8030px;
+    left: 880px;
+}
+
+.img16 {
+    top: 7790px;
+    left: 530px;
+}
+
+p21 {
+    left: 300px;
+}
+
+.img18 {
+    top: 8785px;
+    left: 793px;
+}
+
+.img19 {
+    top: 9110px;
+}
+
+.img20 {
+    top: 9110px;
+    left: 793px;
+}
+
+.img21 {
+    top: 8950px;
+    left: 500px;
+}
+
+p22 {
+    margin-left: 450px;
+}
+
+.img24 {
+    top: 10180px;
+}
+
+.img23 {
+    top: 9850px;
+    left: 805px;
+}
+
+.img25 {
+    top: 10180px;
+    left: 802px;
+}
+
+.img26 {
+    top: 10020px;
+    left: 500px;
+}
+
+.card5 {
+    height: 600px;
+}
+
+
+body.dark-theme .contact {
+    background-color: #2f2f2f;
+}
+
+.contact {
+    background-color: #f2c69e; 
+    padding: 70px 150px 70px 150px;
+    margin-top: 100px;
+}
+
+
+body.dark-theme p24 {
+   color: #fff6ee;
+}
+
+p23 {
+     color: #14100d;
+    font-family: Alumni Sans;
+    font-size: 40px;
+    padding: 20px 50px;         
+    border-radius: 15px;  
+    background-color: #fff6ee;
+    position: absolute;
+    margin-left: 360px;
+}
+
+p24 {
+    position: absolute;
+    font-size: 85px;
+    color: #790708;
+    font-family: Pangolin;
+    margin-left: 410px;
+}
+
+.decor5 {
+    width: 8%;
+    margin-left: 830px;
+}
+
+.contact-form {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-family: Alumni Sans;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff6ee;
+    width: 560px;
+    height: 440px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 4px solid #939081;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+    width: 452px;
+    font-family: Alumni Sans;
+    background-color: #fff6ee;
+}
+
+.contact-form textarea {
+    resize: vertical; 
+}
+
+.button2 {
+    background-color: #939081; 
+    color: #14100d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+.button2:hover {
+    background-color: #C1BCA4; 
+}
+
+.contact-info {
+    width: 300px;
+    height: 380px;
+    box-sizing: border-box;
+
+}
+
+.button-with-img-icon {
+    width: 100%;
+    height: 70px;
+    font-family: Alumni Sans;
+    font-size: 32px;
+    display: flex;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    align-items: center;
+    text-decoration: none;
+    background-color: #fff6ee;
+    color: #14100d;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.button-with-img-icon img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+
+}
+
+body.dark-theme .footer {
+    background-color: #14100d;
+}
+
+.footer {
+    background-color: #790708;
+    color: #939081;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contact-info2 {
+    width: 190px;
+    height: auto;
+}
+
+.fon2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ffe9d4;
+    border-radius: 50px;
+    margin: 0 150px 0 150px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
